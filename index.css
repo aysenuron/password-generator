@@ -83,6 +83,7 @@ button {
   font-family: "Inter", sans-serif;
   color: #55f991;
   text-align: center;
+  cursor: pointer;
 }
 
 /* The switch - the box around the slider */
