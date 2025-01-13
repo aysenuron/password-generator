@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>  
+        <main>
+            <h1>Generate a<br><span id="h1-colored">random password</span></h1>
+            <p class="exp">Never use an insecure password again.</p>
+            <div class="drop-down">
+                <label for="length">Password length</label>
+                <select name="length" id="length">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                </select>
+            </div>
+            <div class="drop-down">
+                <label for="special-char">Include special characters</label>
+                <label class="switch">
+                    <input id="special-char" type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+            </div>
+            <button>Generate passwords</button>
+            <div class="divider"></div>
+            <div class="password-fields">
+                <div class="password-field">
+                    <p class="password" id="password-1"></p>
+                </div>
+                <div class="password-field">
+                    <p class="password" id="password-2"></p>
+                </div>
+            </div>
+        </main>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
